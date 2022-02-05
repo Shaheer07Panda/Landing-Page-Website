@@ -1,0 +1,22 @@
+$LargestText: 3.8rem;
+$header1: 2.6rem;
+$header2: 2.4rem;
+$header3: 2.1rem;
+$bigtext: 1.9rem;
+$text: 1.4rem;
+$logoColor: #003e53;
+@font-face {
+    font-family: 'Curve';
+    src: url(/Fonts/Pacifico-Regular.ttf);
+}
+
+@mixin flex($direction, $justify, $align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@import "global";
+@import "intro";
+@import "beach";

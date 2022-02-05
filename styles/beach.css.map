@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACX,UAAU,EAAE,IAAI;CACnB;;AAED,AAAA,cAAc,CAAC,GAAG,CAAC;EACf,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,KAAK;EACjB,eAAe,EAAE,KAAK;CACzB",
+    "sources": [
+        "beach.scss"
+    ],
+    "names": [],
+    "file": "beach.css"
+}

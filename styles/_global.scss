@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: calc(#{$header1} + 1vw);
+}
+
+h2 {
+    font-size: calc(#{$header2} + 1vw);
+}
+
+h3 {
+    font-size: calc(#{$header3} + 1vw);
+}
+
+p {
+    font-size: calc(#{bigtext} + 1vw);
+}

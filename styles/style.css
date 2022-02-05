@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'Curve';
+  src: url(/Fonts/Pacifico-Regular.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-size: calc(2.6rem + 1vw);
+}
+
+h2 {
+  font-size: calc(2.4rem + 1vw);
+}
+
+h3 {
+  font-size: calc(2.1rem + 1vw);
+}
+
+p {
+  font-size: calc(bigtext + 1vw);
+}
+
+.head-main {
+  width: 80%;
+  margin: auto;
+  min-height: 20vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.head-main #logo {
+  -webkit-box-flex: 3;
+      -ms-flex: 3 1 40rem;
+          flex: 3 1 40rem;
+  font-family: 'Curve';
+  font-weight: 400;
+  color: #003e53;
+}
+
+.head-main nav {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+.head-main nav ul {
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4rem;
+}
+
+.head-main nav ul li {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  margin-top: 0.5rem;
+}
+
+.head-main nav ul li:hover {
+  -webkit-transform: translateY(-20%);
+          transform: translateY(-20%);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.beach-section {
+  min-height: 80vh;
+}
+
+.beach-section img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+}
+/*# sourceMappingURL=style.css.map */
