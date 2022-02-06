@@ -1,0 +1,53 @@
+.bedrooms {
+    padding-top: 5rem;
+    width: 80%;
+    margin: auto;
+}
+
+.bedflex {
+    margin-bottom: 5rem;
+    @include flex(row, center, center);
+    flex-wrap: wrap;
+    .bed1text {
+        flex: 1 1 40rem;
+        margin: 4rem;
+        width: 100%;
+        @include flex(column, center, flex-start);
+        h1,
+        p,
+        button {
+            margin: 1rem;
+        }
+        p {
+            font-size: $bigtext;
+            color: #7a7a7a;
+        }
+        h1 {
+            color: #8daca6;
+            font-weight: 300;
+        }
+        button {
+            padding: 1.5rem 3rem;
+            font-size: $bigtext;
+            font-family: sans-serif;
+            border: none;
+            background-color: #e4bc36;
+            color: #ffff;
+            font-weight: 600;
+            transition: 0.5s;
+            &:hover {
+                background-color: #818a91;
+                transition: 0.5s;
+                cursor: pointer;
+            }
+        }
+    }
+    .furn1 {
+        flex: 1 1 40rem;
+        width: 100%;
+        box-shadow: 20px 20px 10px rgba($color: #000000, $alpha: 0.2), 0px 10px 40px rgba($color: #000000, $alpha: 0.2);
+        img {
+            width: 100%;
+        }
+    }
+}

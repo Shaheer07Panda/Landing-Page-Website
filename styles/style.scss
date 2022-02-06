@@ -3,11 +3,16 @@ $header1: 2.6rem;
 $header2: 2.4rem;
 $header3: 2.1rem;
 $bigtext: 1.9rem;
-$text: 1.4rem;
+$text: 1.6rem;
 $logoColor: #003e53;
 @font-face {
     font-family: 'Curve';
     src: url(/Fonts/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url(/Fonts/Roboto/Roboto-Regular.ttf);
 }
 
 @mixin flex($direction, $justify, $align) {
@@ -20,3 +25,41 @@ $logoColor: #003e53;
 @import "global";
 @import "intro";
 @import "beach";
+@import "furniture";
+@import "blog";
+@media screen and (max-width: 999px) {
+    #logo {
+        @include flex(column, center, center);
+        margin-bottom: 1rem;
+    }
+    nav {
+        margin-bottom: 1rem;
+    }
+    .bedrooms {
+        padding-top: 1rem;
+    }
+    .bed1text,
+    .bedflex {
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width:888px) {
+    .yourdreams {
+        h1 {
+            @include flex(column, center, center);
+            padding-top: 1.5rem;
+            text-align: center;
+            padding-bottom: 1rem;
+        }
+        div {
+            padding-bottom: 1.5rem;
+        }
+    }
+}
+
+@media screen and (max-width:678px) {
+    .beach-section {
+        min-height: 50vh;
+    }
+}

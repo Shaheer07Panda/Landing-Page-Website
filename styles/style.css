@@ -3,6 +3,11 @@
   src: url(/Fonts/Pacifico-Regular.ttf);
 }
 
+@font-face {
+  font-family: 'roboto';
+  src: url(/Fonts/Roboto/Roboto-Regular.ttf);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -107,6 +112,75 @@ p {
   transition: 0.2s;
 }
 
+.yourdreams {
+  min-height: 20vh;
+  background: #003E53;
+  width: 100%;
+  padding: 0% 5%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.yourdreams h1 {
+  -webkit-box-flex: 3;
+      -ms-flex: 3 1 40rem;
+          flex: 3 1 40rem;
+  font-family: 'roboto';
+  font-weight: 300;
+  color: #ffff;
+}
+
+.yourdreams div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.yourdreams div button {
+  padding: 2rem 4rem;
+  font-size: 1.9rem;
+  font-family: sans-serif;
+  border: none;
+  background-color: #e4bc36;
+  color: #ffff;
+  font-weight: 600;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.yourdreams div button:hover {
+  background-color: #818a91;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
 .beach-section {
   min-height: 80vh;
 }
@@ -117,5 +191,221 @@ p {
   -o-object-fit: cover;
      object-fit: cover;
   background-size: cover;
+}
+
+.bedrooms {
+  padding-top: 5rem;
+  width: 80%;
+  margin: auto;
+}
+
+.bedflex {
+  margin-bottom: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.bedflex .bed1text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  margin: 4rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.bedflex .bed1text h1,
+.bedflex .bed1text p,
+.bedflex .bed1text button {
+  margin: 1rem;
+}
+
+.bedflex .bed1text p {
+  font-size: 1.9rem;
+  color: #7a7a7a;
+}
+
+.bedflex .bed1text h1 {
+  color: #8daca6;
+  font-weight: 300;
+}
+
+.bedflex .bed1text button {
+  padding: 1.5rem 3rem;
+  font-size: 1.9rem;
+  font-family: sans-serif;
+  border: none;
+  background-color: #e4bc36;
+  color: #ffff;
+  font-weight: 600;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.bedflex .bed1text button:hover {
+  background-color: #818a91;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.bedflex .furn1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  width: 100%;
+  -webkit-box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.2), 0px 10px 40px rgba(0, 0, 0, 0.2);
+          box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.2), 0px 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.bedflex .furn1 img {
+  width: 100%;
+}
+
+.vid-section {
+  padding-top: 8rem;
+  background-image: linear-gradient(260deg, #d2e9e1 0%, rgba(210, 233, 225, 0.37) 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3rem;
+}
+
+.vid-section .title {
+  margin-bottom: 2rem;
+  color: #003e53;
+  font-weight: 300;
+}
+
+.vid-section h3 {
+  font-weight: 300;
+  color: #003e53;
+  font-size: 1.9rem;
+  padding: 3rem 0rem;
+  text-align: center;
+}
+
+.vid-section .user-bio {
+  text-align: center;
+}
+
+.vid-section .user-bio .username {
+  color: #e4bc36;
+  font-size: 2.4rem;
+  letter-spacing: 0.24rem;
+  font-weight: 500;
+}
+
+.vid-section .user-bio img {
+  border-radius: 50%;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.vid-section .user-bio p {
+  font-size: 1.9rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+video {
+  width: 50%;
+  -webkit-box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.2), 0px 10px 40px rgba(0, 0, 0, 0.2);
+          box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.2), 0px 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 999px) {
+  #logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 1rem;
+  }
+  nav {
+    margin-bottom: 1rem;
+  }
+  .bedrooms {
+    padding-top: 1rem;
+  }
+  .bed1text,
+  .bedflex {
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 888px) {
+  .yourdreams h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 1.5rem;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  .yourdreams div {
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .beach-section {
+    min-height: 50vh;
+  }
 }
 /*# sourceMappingURL=style.css.map */

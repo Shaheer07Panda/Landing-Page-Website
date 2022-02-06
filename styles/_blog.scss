@@ -1,0 +1,43 @@
+.vid-section {
+    padding-top: 8rem;
+    background-image: linear-gradient( 260deg, #d2e9e1 0%, rgba(210, 233, 225, 0.37) 100%);
+    @include flex(column, center, center);
+    gap: 3rem;
+    .title {
+        margin-bottom: 2rem;
+        color: #003e53;
+        font-weight: 300;
+    }
+    h3 {
+        font-weight: 300;
+        color: #003e53;
+        font-size: $bigtext;
+        padding: 3rem 0rem;
+        text-align: center;
+    }
+    .user-bio {
+        text-align: center;
+        .username {
+            color: #e4bc36;
+            font-size: 2.4rem;
+            letter-spacing: 0.24rem;
+            font-weight: 500;
+        }
+        img {
+            border-radius: 50%;
+            width: 50%;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: $bigtext;
+            text-align: center;
+            padding-bottom: 1rem;
+        }
+    }
+}
+
+video {
+    width: 50%;
+    box-shadow: 20px 20px 10px rgba($color: #000000, $alpha: 0.2), 0px 10px 40px rgba($color: #000000, $alpha: 0.2);
+}
